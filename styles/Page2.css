@@ -1,0 +1,57 @@
+.allCard{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+  }
+  
+  .supportCard{
+    width: 31rem;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+  }
+  .suppImg{
+    padding: 1rem;
+    box-shadow: 1px 1px 10px #acacac;
+  }
+  .suppTytle{
+    margin: 0.5rem 0rem;
+  }
+  .suppBody{
+    font-size: 1.2rem;
+  }
+  
+  /* page 2 left side */
+  
+  .pageCompo{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  }
+  .suppSide{
+    width: 60%;
+  }
+  .sideHead{
+    font-size: 3.5rem;
+  }
+  .sidePara{
+    font-size: 1.1rem;
+  }
+  .point{
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .ratingName{
+    color: rgba(166, 166, 166, 1);
+  
+  }
+  .rating{
+    display: flex;
+    gap: 2rem;
+  }
+  .star{
+    width: 10rem;
+  }

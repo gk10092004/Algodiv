@@ -1,0 +1,136 @@
+.subPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.chooseTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#chooseHead{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0rem 0rem;
+}
+#choosePara{
+    font-size: 1.2rem;
+}
+#chooseBtn{
+    background: rgb(255, 255, 255);
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    display: flex;
+    gap: 0.2rem;
+}
+.billbtn{
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: transparent;
+}
+.billbtn:hover{
+    background: rgba(84, 189, 149, 1);
+
+}
+.paidCard{
+    padding: 3rem 0rem;
+    width: 100vw;
+    height: 70vh;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Paid Card */
+
+.chooseCard{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    background: white;
+    box-shadow: 0.1px 0.1px 1px rgb(139, 139, 139);
+}
+.chooseCard:hover{
+    transform: scale(1.1);
+    background: rgba(84, 189, 149, 1);
+    color: white;
+}
+.chooseCard:hover .kpbtn{
+    background: rgba(249, 250, 251, 1);
+}
+.chooseCard:hover .kpbtn:hover{
+    background: rgba(84, 189, 149, 1);
+    color: white;
+}
+
+.chooseCard:hover .chooseKeyPoint{
+    background-color: white;
+    color: black;
+}
+.chooseType{
+    margin: 0rem 0rem -0.5rem 0rem;
+}
+.chooseCardPara{
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    gap: 0.1rem;
+    
+}
+.amount{
+    font-size: 2.5rem;
+}
+.discount{
+    display: none;
+}
+.chooseCard:hover .discount{
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 0.4rem 0rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgba(133, 218, 185, 1);
+
+}
+
+.chooseKeyPoint{
+    padding: 0.5rem;
+    background: rgba(249, 250, 251, 1);
+    border-radius: 0.5rem;
+}
+.checkedImg{
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.kp1{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin: 0.4rem 0rem;
+}
+.kpName{
+    padding-bottom: 0.1rem;
+}
+.kpbtn{
+    background: rgba(255, 255, 255, 1);
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    color: rgba(84, 189, 149, 1);
+}
+.kpbtn:hover{
+    background: rgba(84, 189, 149, 1);
+    color: white;
+}

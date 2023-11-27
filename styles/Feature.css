@@ -1,0 +1,45 @@
+
+.featureComp{
+    padding: 1rem 2rem;
+    background-color: transparent;
+}
+.featureHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    height: 9rem;
+}
+.featurePara{
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-weight: 500;
+
+
+}
+#getbtn{
+    background: rgba(84, 189, 149, 1);
+    border: none;
+    font-size: 1.1rem;
+    padding: 1rem 1.3rem;
+    color: white;
+    border-radius: 2rem;
+}
+.featureCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* featureCard */
+
+.featureCard{
+    width: 20rem;
+}
+.fcardhead{
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+}
+.featImg{
+    height: 20rem;
+    width: 20rem;
+}

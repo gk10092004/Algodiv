@@ -1,0 +1,150 @@
+.fcard{
+    color: white;
+    padding:2.5rem 0rem ;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+  }
+  .l1{
+    width: 27rem;
+    padding:0.5rem 0.5rem 3rem 0.5rem;
+  }
+  .b1head{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+  }
+  .leftImg{
+    margin: 1.5rem 0rem;
+  }
+  .b1para,.b1span{
+    font-size: 1rem;
+  }
+  .b1para{
+    margin-bottom: 1.5rem;
+  }
+  .fImg{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.8rem;
+  }
+
+
+  /* box 2 */
+.l2{
+    padding: 1.5rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: rgba(34, 41, 56, 1);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.fill{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.freeStart{
+    align-self: flex-end;
+}
+.inputdata{
+    width: 28rem;
+    height: 2.5rem;
+    font-size: 18px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+.inMess{
+  height: 5rem;
+  resize: none;
+}
+.label{
+  font-size: 18px;
+}
+.fbtn{
+  height: 3rem;
+  font-size: 18px;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: rgba(84, 189, 149, 1);
+  color: white;
+}
+#or{
+  color: rgba(166, 166, 166, 1);
+}
+
+/* box 3 */
+
+.l3{
+  width: 27rem;
+}
+.flogo{
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  color: rgba(84, 189, 149, 1);
+  margin-bottom: -0.5rem;
+}
+.logoemail{
+  padding: 0.3rem;
+  border: 2px solid rgba(166, 166, 166, 1);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2rem;
+}
+#arrow{
+  background: rgba(84, 189, 149, 1);
+  border-radius: 2rem;
+}
+.emailInput{
+  font-size: 18px;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-family: sans-serif;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+
+/* box 4 */
+
+.l4{
+  display: flex;
+  gap: 3rem;
+}
+.fcontact{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.fsupport{
+  text-decoration: none;
+  color: rgba(166, 166, 166, 1);
+}
+.fcopyright{
+  color: white;
+  margin: 0rem 6rem;
+  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  
+}
+#fcrright{
+  display: flex;
+  gap: 0.8rem;
+}
+.fcrlink{
+  text-decoration: none;
+  color: white;
+}
